@@ -16,7 +16,7 @@ public class Lesson1HomeWork {
 
         // Первый способ (более простой в реализации)
 
-        // привели "a" к положительному числу (вызвали мтеод abs и передали аргументом переменную "a")
+        // привели "a" к положительному числу (вызвали метод abs и передали аргументом переменную "a")
         // сделали для того, чтобы избавиться от минуса
         //a = Math.abs(a);
 
@@ -39,6 +39,25 @@ public class Lesson1HomeWork {
 
         // WQEWQEQ
         //Q WEQW FQWFq
+
+        double newNumber = 2.7;
+        String aStr;
+        aStr = Integer.toString((int) newNumber);
+        double length = aStr.length();
+        System.out.println(length);
+        boolean nextCondition = newNumber >= 0;
+        System.out.println("Число newNumber больше 0: " + nextCondition) ;
+
+
+
+
+        int numberA = 3;
+        double numberB = -5.4;
+        numberA = Math.abs(numberA);
+        numberB = Math.abs(numberB);
+        boolean isGreater = Math.abs(numberA) >= Math.abs(numberB);
+        System.out.println(isGreater);
+
 
     }
 }
