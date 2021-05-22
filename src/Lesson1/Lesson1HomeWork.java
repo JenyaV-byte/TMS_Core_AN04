@@ -41,12 +41,15 @@ public class Lesson1HomeWork {
         //Q WEQW FQWFq
 
         double newNumber = 2.7;
+        System.out.println((double) newNumber);
+        System.out.println(newNumber);
+        System.out.println((int) newNumber);
         String aStr;
-        String aStr = Integer.toString((int) newNumber);
+        aStr = Integer.toString((int) newNumber);
         double length = aStr.length();
         System.out.println(length);
         boolean nextCondition = newNumber >= 0;
-        System.out.println("Число newNumber больше 0: " + nextCondition) ;
+        System.out.println(nextCondition);
 
 
 
@@ -57,7 +60,6 @@ public class Lesson1HomeWork {
         numberB = Math.abs(numberB);
         boolean isGreater = Math.abs(numberA) >= Math.abs(numberB);
         System.out.println(isGreater);
-
 
     }
 }
