@@ -42,7 +42,7 @@ public class Lesson1HomeWork {
 
         double newNumber = 2.7;
         String aStr;
-        aStr = Integer.toString((int) newNumber);
+        String aStr = Integer.toString((int) newNumber);
         double length = aStr.length();
         System.out.println(length);
         boolean nextCondition = newNumber >= 0;
