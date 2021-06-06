@@ -8,13 +8,16 @@ package Lesson3;
 
 public class Les3HomeWorkTask1 {
     public static void main(String[] args) {
-        int n=20;
-        int j =0;
-        int[] mass=new int[n];
-        for (int i=0;i<n;i++)
-            if (mass[i]%3==0);
-            j=j+mass[i]; // не понимаю как присвоить значение...(
-            System.out.println("Сумма"+j);
-    }
+        int n = 10;
+        int j = 0;
+        int[] mass = {1,2,3,4,5,6,7,8,9,10};
+        for (int i = 0; i < n; i++) {
 
+            if (mass[i] % 3 == 0){
+
+                j = j + mass[i];
+            }
+        }
+        System.out.println("Сумма = " + j);
+    }
 }
