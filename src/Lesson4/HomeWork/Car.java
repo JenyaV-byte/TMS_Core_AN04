@@ -1,20 +1,17 @@
 package Lesson4.HomeWork;
 
 public class Car {
-    private final Tank tank;
+    private Tank tank;
     private final Engine engine;
     private String name;
     private Integer distance;
 
-
-    public Car(Tank tank, Engine engine) {
+    public Car(Engine vwEngine, Tank tank) {
+        this.engine = vwEngine;
         this.tank = tank;
-        this.engine = engine;
+        this.distance = 0;
     }
 
-    public Car() {
-
-    }
 
     public void setName(String name) {
         this.name = name;
